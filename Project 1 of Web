@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        ul {
+            display: flex;
+            justify-content: right;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 10px 20px;
+        }
+
+        header {
+            width: 100vw;
+            height: 7vh;
+            background-color: aqua;
+        }
+
+
+
+        .main-first {
+            display: flex;
+            padding: 10px;
+        }
+
+        .box {
+            height: 70vh;
+            width: 40vw;
+            background-color: black;
+            margin: auto;
+
+        }
+
+        .box1 {
+            background-color: blue;
+        }
+
+        .box2 {
+            background-color: blueviolet;
+        }
+
+        footer {
+
+            background-color: black;
+            width: 100vw;
+            height: 7vh;
+            color: white;
+            text-align: center;
+        }
+
+        .content11 {
+              text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contant</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-first">
+
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+
+        </div>
+        <div class="content11">
+            <h2>Welcom To My Website</h2>
+            <h3>This Is our Website</h3>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        <div>This Is footer</div>
+
+    </footer>
+
+</body>
+
+</html>
